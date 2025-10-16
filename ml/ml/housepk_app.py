@@ -1,4 +1,4 @@
-# app.pyaisgdiausdhaud
+# app.py
 import os
 import joblib
 import numpy as np
@@ -13,7 +13,7 @@ feature_list = joblib.load(os.path.join(MODEL_DIR, "model_features.pkl"))  # ord
 label_encoders = joblib.load(os.path.join(MODEL_DIR, "label_encoders.pkl"))
 feature_field_map = joblib.load(os.path.join(MODEL_DIR, "feature_field_map.pkl"))
 
-# build metadata for template
+# build metadata for (changed for conflict!)
 feature_meta = []
 for feat in feature_list:
     field_name = feature_field_map[feat]
