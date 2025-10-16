@@ -1,4 +1,4 @@
-# app.pyaisgdiausdhaud
+# app.py
 import os
 import joblib
 import numpy as np
