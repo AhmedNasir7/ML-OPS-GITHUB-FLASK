@@ -75,7 +75,7 @@ def predict():
         pred_fmt = str(pred)
     return render_template("result.html", prediction=pred_fmt)
 
-# Optional JSON API
+# Optionale JSON API
 @app.route("/api/predict", methods=["POST"])
 def api_predict():
     data = request.json
